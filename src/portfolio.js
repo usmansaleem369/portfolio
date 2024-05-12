@@ -44,15 +44,9 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "What I do",
-    subTitle: "Meet Usman Saleem: The Android Wizard on a Mission to Explore Every Tech Stack! With 7 years of daring exploits in mobile development, I'm here to push boundaries and redefine what's possible. Join me on a journey through a wild world of code and creativity. Let's build the future, one crazy idea at a time!",
+    subTitle: "Meet Usman Saleem: The Android Wizard on a Mission to Explore Every Tech Stack! With 7 years of daring exploits in mobile development, I'm here to push boundaries and redefine what's possible. Join me on a journey through a wild world of code and creativity. Let's build the future, one crazy idea at a time!. Here is some tech stack i worked on",
     skills: [
-        emoji(
-            "⚡ Develop highly interactive Front end / User Interfaces for mobile applications"
-        ),
-        emoji("⚡ Progressive Android Applications using native languages"),
-        emoji(
-            "⚡ Integration of third party services such as Firebase/ AWS / Google API's"
-        )
+       
     ],
 
     /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -69,12 +63,12 @@ https://fontawesome.com/icons?d=gallery */
 
         {
             skillName: "Google Maps Api",
-            fontAwesomeClassname: "fas fa-google"
+            fontAwesomeClassname: "fa fa-map-marker"
         },
 
         {
             skillName: "Google Places Api",
-            fontAwesomeClassname: "fas fa-location-dot"
+            fontAwesomeClassname: "fas fa-map-dot"
         },
         {
             skillName: "Google Drive",
@@ -175,7 +169,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-    display: true, //Set it to true to show workExperiences Section
+    display: false, //Set it to true to show workExperiences Section
     experience: [{
             role: "Senior Android Developer",
             company: "TerraFort",
@@ -244,53 +238,74 @@ To know how to get github key look at readme.md */
 
 const openSource = {
     showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-    title: "Big Projects",
-    subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+    title: "Some Projects",
+    subtitle: "Here are just a glimpse of the projects I've completed; there's plenty more to delve into. I've worked on numerous others and am eager to share them with you. Let's continue the discussion and explore further!",
     projects: [{
-            image: require("./assets/images/nextuLogo.webp"),
+            image: require("./assets/images/terascan.png"),
             projectName: "Terascan (In Progress)",
-            projectDesc: "Terascan is an all-in-one scanner app. It turns your mobile device into a powerful portable scanner that recognizes text automatically (AI-powered OCR) and improves your productivity to save your time. The most intelligent scanner app. Scan anything — receipts, notes, documents, photos, business cards, whiteboards — with text you can reuse from each PDF and photo scan. User can also edit the pdf through this app.",
+            projectDesc: "Capture, edit, convert, and share documents effortlessly on your mobile device. Whether contracts or receipts, at home or on the go, high-quality scans are just a few taps away.",
             footerLink: [{
-                name: "Visit Website link",
-                url: "https://www.terafort.com/"
+                name: "Playstore Link",
+                url: "https://play.google.com/store/apps/details?id=com.tera.scan&hl=en&gl=US"
             }]
         },
         {
-            image: require("./assets/images/nextuLogo.webp"),
+            image: require("./assets/images/yhat.png"),
             projectName: "yHat",
-            projectDesc: "Odyx yHat is Time Series Forecasting tool for making the complex process of data science more straightforward & usable for a non-technical user without any data science knowledge.Odyx yHat has been designed to meet the core needs of its intended users seeking a smart way to create as many time series forecasting projects as they want without the hassle of dealing with coding. You just select industry & its subcategory, load data file, review data & deploy the productionized model for results. It’s that quick to conduct forecasting in our AI-Based time series forecasting tool.",
+            projectDesc: "Simplifying time series forecasting for non-technical users, allowing effortless creation of projects without coding. Just select industry, load data, review, and deploy for quick, AI-based forecasting results.",
             footerLink: [{
                 name: "Visit Website link",
                 url: "https://odyxyhat.com/"
             }]
         },
         {
-            image: require("./assets/images/nextuLogo.webp"),
-            projectName: "eScoot",
-            projectDesc: "eScoot—an innovative solution that brings together electric scooters from leading mobility operators into one convenient platform. With eScoot, users can effortlessly locate the nearest electric scooter or bike from popular providers like Lime, Bird, Spin, and many more, all with just a few taps. Excitingly, in select cities across Denmark, Sweden, Germany, Spain, and Italy, users can now directly unlock and pay for their rides within the app.Navigating eScoot is simple: users search for rides marked with a star, locate the closest electric scooter or bike, and initiate and pay for their ride seamlessly—all within the eScoot app. For other cities, and for alternative modes of transportation like cars and mopeds, eScoot redirects users to the respective operator's platform for a hassle-free experience.",
+            image: require("./assets/images/skoot.png"),
+            projectName: "Skoot",
+            projectDesc: "Choose from thousands of e-scooters & e-bikes from Trusted Rental Partners on Skoot. Simplify your rental experience",
             footerLink: [{
                 name: "Visit Playstore link",
-                url: "https://play.google.com/store/apps/details?id=com.santoyamo.nomorecars&hl=en_US&gl=US"
+                url: "https://play.google.com/store/apps/details?id=com.skoot.now"
             }]
         },
         {
-            image: require("./assets/images/saayaHealthLogo.webp"),
+            image: require("./assets/images/fazer.png"),
             projectName: "Fazer",
-            projectDesc: "Fazer mobile app, designed to complement the Fazer Defense pepper spray device, automatically notifies your emergency contacts and shares your GPS location upon activation, ensuring swift assistance in times of distress. With no requirement for your contacts to download the app, it's a hassle-free solution for staying connected to safety. Visit fazerdefense.com today to equip yourself with peace of mind. Note: To ensure continuous functionality, keep the Fazer Defense app open or running in the background, as closing it through the App Switcher may disrupt distress signal reception until manually reopened.",
+            projectDesc: "Stay secure with the Fazer app, paired with Fazer Defense pepper spray. Alert contacts & share GPS for quick aid. Hassle-free, no downloads needed. Get peace of mind at fazerdefense.com.",
             footerLink: [{
                     name: "Visit Playstore link",
                     url: "https://play.google.com/store/apps/details?id=com.fazer.defense&hl=en_US&gl=US"
                 }
                 //  you can add extra buttons here.
             ]
-        }
-
+        },
+        {
+            image: require("./assets/images/swaptions.png"),
+            projectName: "Swaptions",
+            projectDesc: "Swaption is an online selling/swapping app for different things.This app is used in US by barters. Person can easily register on app and can sell, buy, exchange his products. Payment can be made using secure payment gateways i.e. PayPal",
+            footerLink: [{
+                    name: "Visit Playstore link",
+                    url: "https://play.google.com/store/apps/details?id=com.swapationproject"
+                }
+                //  you can add extra buttons here.
+            ]
+        },
+        {
+            image: require("./assets/images/baaqah.png"),
+            projectName: "Baaqah",
+            projectDesc: "Baaqah is a bouquet selling application, which is used by different florists in dubai. Different users can register themselves using app and can buy bouquets online. Payments done using card, PayPal, Authorize.net as well as manually.",
+            footerLink: [{
+                    name: "Visit link",
+                    url: "https://www.baaqah.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },
     ],
     display: true // Set false to hide this section, defaults to true
 };
