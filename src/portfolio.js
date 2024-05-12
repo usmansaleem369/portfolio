@@ -54,69 +54,44 @@ https://fontawesome.com/icons?d=gallery */
 
     softwareSkills: [{
             skillName: "JAVA",
-            fontAwesomeClassname: "fab fa-java"
+            fontAwesomeClassname: require("./assets/images/java.png")
         },
         {
             skillName: "Kotlin",
-            fontAwesomeClassname: "fab fa-android"
+            fontAwesomeClassname: require("./assets/images/kotlin.png")
         },
 
         {
-            skillName: "Google Maps Api",
-            fontAwesomeClassname: "fa fa-map-marker"
-        },
-
-        {
-            skillName: "Google Places Api",
-            fontAwesomeClassname: "fas fa-map-dot"
-        },
-        {
-            skillName: "Google Drive",
-            fontAwesomeClassname: "fas fa-google-drive"
-        },
-        {
-            skillName: "Google SignIn",
-            fontAwesomeClassname: "fas fa-google"
+            skillName: "Google Api's",
+            fontAwesomeClassname: require("./assets/images/google.png")
         },
         {
             skillName: "Google Vision",
-            fontAwesomeClassname: "fas fa-google"
+            fontAwesomeClassname: require("./assets/images/googlevision.png")
         },
         {
-            skillName: "Google/Firebase Cloud Messaging",
-            fontAwesomeClassname: "fas fa-message"
+            skillName: "Cloud Messaging",
+            fontAwesomeClassname: require("./assets/images/cloudmessaging.png")
         },
         {
             skillName: "Firebase",
-            fontAwesomeClassname: "fas fa-fire"
+            fontAwesomeClassname: require("./assets/images/firebase.png")
         },
         {
-            skillName: "Firebase Realtime Database",
-            fontAwesomeClassname: "fas fa-database"
+            skillName: "Realtime Database",
+            fontAwesomeClassname: require("./assets/images/firebaserealm.png")
         },
         {
-            skillName: "Room-database",
-            fontAwesomeClassname: "fas fa-database"
+            skillName: "Offline Storage",
+            fontAwesomeClassname: require("./assets/images/google.png")
         },
         {
-            skillName: "Google Pay",
-            fontAwesomeClassname: "fas fa-google-pay"
-        },
-        {
-            skillName: "Stripe",
-            fontAwesomeClassname: "fas fa-stripe"
-        },
-        {
-            skillName: "PayPal",
-            fontAwesomeClassname: "fas fa-paypal"
-        },
-        {
-            skillName: "PayPal",
-            fontAwesomeClassname: "fas fa-cc-mastercard"
+            skillName: "Payment Gateways",
+            fontAwesomeClassname: require("./assets/images/paymentgateways.png")
         },
         {
             skillName: "aws",
-            fontAwesomeClassname: "fab fa-aws"
+            fontAwesomeClassname: require("./assets/images/aws.png")
         }
     ],
     display: true // Set false to hide this section, defaults to true
@@ -427,7 +402,7 @@ const contactInfo = {
 
 const twitterDetails = {
     userName: "twitter", //Replace "twitter" with your twitter username without @
-    display: true // Set true to display this section, defaults to false
+    display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
