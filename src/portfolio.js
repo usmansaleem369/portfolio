@@ -25,7 +25,7 @@ const greeting = {
     subTitle: emoji(
         "A seasoned Senior Android Developer with 7 years of expertise. I specialize in creating captivating mobile experiences that blend sleek design with cutting-edge functionality. Dive into my portfolio to see how I transform ideas into polished, user-centric apps. Let's build something extraordinary together!"
     ),
-    resumeLink: "https://drive.google.com/file/d/1i7QHAF5fyPG8Q4i3FyG15UgprKi54NCI/view?usp=drive_link", // Set to empty to hide the button
+    resumeLink: "https://drive.google.com/file/d/1lyMx-kW3hL1bLUH9-RDZ00NEoKW9_oxE/view?usp=drive_link", // Set to empty to hide the button
     displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -97,17 +97,6 @@ https://fontawesome.com/icons?d=gallery */
     display: true // Set false to hide this section, defaults to true
 };
 
-// Education Section
-
-const educationInfo = {
-    display: true, // Set false to hide this section, defaults to true
-    schools: [{
-        schoolName: "FAST NUCES",
-        logo: require("./assets/images/fastLogo.png"),
-        subHeader: "Bachelors of Computer Science",
-        duration: "August 2013 - July 2017",
-    }]
-};
 
 // Your top 3 proficient stacks/tech experience
 
@@ -144,13 +133,13 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-    display: false, //Set it to true to show workExperiences Section
+    display: true, //Set it to true to show workExperiences Section
     experience: [{
             role: "Senior Android Developer",
-            company: "TerraFort",
+            company: "TeraFort",
             companylogo: require("./assets/images/terafort.png"),
             date: "January 2024 – Present",
-            desc: "I am thrilled to be a part of the innovative team at TerraFort, where I serve as a Senior Android Developer. At TerraFort, I have the opportunity to contribute to the cutting-edge technology that is revolutionizing the real estate industry. Collaborating with a talented team of professionals, I play a pivotal role in developing and enhancing the TerraFort Android application, which empowers users to make informed decisions about properties, investments, and real estate transactions. Working in a dynamic and fast-paced environment, I am constantly challenged to push the boundaries of Android development and deliver seamless user experiences. My time at TerraFort has been incredibly rewarding, and I am proud to be a key player in shaping the future of real estate technology.",
+            desc: "I am thrilled to be a part of the innovative team at TerraFort, where I serve as a Senior Android Developer.",
             descBullets: [
                 "Proudly serving as a Senior Android Developer at TerraFort, a pioneering force in real estate technology.",
                 "Collaborating within a dynamic team to develop and enhance the TerraFort Android application.",
@@ -165,14 +154,13 @@ const workExperiences = {
             company: "RunUfit",
             companylogo: require("./assets/images/runufit.png"),
             date: "March 2023 – December 2023",
-            desc: "Excited to be a Senior Android Developer at RunUfit, where I've had the privilege to contribute my expertise to an exciting fitness-focused platform. At RunUfit, I played a key role in designing and implementing new features to enhance user engagement and experience. Working closely with a dedicated team of developers and designers, I helped shape the RunUfit Android app, empowering users to achieve their fitness goals with ease and efficiency. It's been a rewarding journey, being part of a company that's committed to leveraging technology for positive lifestyle changes.",
+            desc: "Excited to be a Senior Android Developer at RunUfit, where I've had the privilege to contribute my expertise to an exciting fitness-focused platform.",
             descBullets: [
                 "Contributed to the development of RunUfit's Android app, focusing on enhancing user engagement and experience.",
                 "Collaborated closely with cross-functional teams to ensure seamless integration of new features and improvements.",
                 "Utilized my expertise in Android development to deliver high-quality code and maintain the app's performance and reliability.",
                 "Thrived in a fast-paced environment, adapting quickly to changing requirements and priorities.",
                 "Proud to have been part of a team dedicated to leveraging technology to promote health and wellness.",
-                "Completed tenure as a Senior Android Developer from March 2023 to December 2023."
             ]
         },
         {
@@ -180,14 +168,13 @@ const workExperiences = {
             company: "Odyssey Solutions",
             companylogo: require("./assets/images/odyssey_solutions.png"),
             date: "January 2022 – March 2023",
-            desc: "Embarking on a thrilling journey as a Senior Android Developer at Odyssey Solutions, I've had the honor of contributing my skills to a myriad of transformative projects. At Odyssey Solutions, every day felt like a new adventure, where innovation and creativity were not just encouraged but celebrated. As a core member of the Android development team, I played a pivotal role in crafting immersive mobile experiences that pushed the boundaries of what's possible. From architecting elegant solutions to solving complex technical challenges, I've been fortunate to collaborate with some of the brightest minds in the industry.",
+            desc: "Embarking on a thrilling journey as a Senior Android Developer at Odyssey Solutions, I've had the honor of contributing my skills to a myriad of transformative projects.",
             descBullets: [
                 "Led the development of multiple high-impact Android applications, driving user engagement and satisfaction to new heights.",
                 "Worked closely with cross-functional teams to translate vision and requirements into innovative mobile solutions.",
                 "Championed best practices in Android development, ensuring code quality, performance, and scalability.",
                 "Embraced a culture of continuous learning and growth, staying abreast of the latest technologies and trends.",
                 "Fostered a collaborative and inclusive work environment, where every voice was valued and respected.",
-                "Concluded an enriching chapter as a Senior Android Developer from January 2022 to March 2023."
             ]
         },
         {
@@ -195,14 +182,13 @@ const workExperiences = {
             company: "Vision Plus Solutions",
             companylogo: require("./assets/images/vision_plus_solutions.png"),
             date: "March 2017 – December 2021",
-            desc: "Thrilled to have been part of the dynamic team at Vision Plus Solutions as an Android Developer. Over the span of four years, I've had the opportunity to contribute to a diverse range of projects that have shaped my skills and perspective as a developer. At Vision Plus Solutions, innovation and collaboration were at the core of every project, and I played a hands-on role in designing and implementing robust Android applications that exceeded client expectations. It's been an incredible journey of growth and learning, where each challenge presented an opportunity to expand my skills and contribute to meaningful solutions.",
+            desc: "Thrilled to have been part of the dynamic team at Vision Plus Solutions as an Android Developer.",
             descBullets: [
                 "Contributed to the development of Android applications across various domains, including e-commerce, finance, and entertainment.",
                 "Worked closely with cross-functional teams to understand project requirements and deliver scalable and high-performing solutions.",
                 "Adopted best practices in Android development, ensuring code quality, maintainability, and performance optimization.",
                 "Collaborated with UI/UX designers to create visually appealing and intuitive user interfaces.",
                 "Continuously updated skills and knowledge to stay abreast of the latest technologies and trends in Android development.",
-                "Concluded a fulfilling chapter as an Android Developer from March 2017 to December 2021."
             ]
         }
     ]
@@ -283,6 +269,18 @@ const bigProjects = {
         },
     ],
     display: true // Set false to hide this section, defaults to true
+};
+
+// Education Section
+
+const educationInfo = {
+    display: true, // Set false to hide this section, defaults to true
+    schools: [{
+        schoolName: "FAST NUCES",
+        logo: require("./assets/images/fastLogo.png"),
+        subHeader: "Bachelors of Computer Science",
+        duration: "August 2013 - July 2017",
+    }]
 };
 
 // Achievement Section
@@ -413,9 +411,9 @@ export {
     socialMediaLinks,
     splashScreen,
     skillsSection,
-    educationInfo,
     techStack,
     workExperiences,
+    educationInfo,
     openSource,
     bigProjects,
     achievementSection,
