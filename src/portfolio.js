@@ -23,7 +23,7 @@ const greeting = {
     username: "Usman Saleem",
     title: "Hi all, I'm Usman",
     subTitle: emoji(
-        "A seasoned Senior Android Developer with 7 years of expertise. I specialize in creating captivating mobile experiences that blend sleek design with cutting-edge functionality. Dive into my portfolio to see how I transform ideas into polished, user-centric apps. Let's build something extraordinary together!"
+        "A seasoned Senior Android Developer with 9 years of expertise. I specialize in creating captivating mobile experiences that blend sleek design with cutting-edge functionality. Dive into my portfolio to see how I transform ideas into polished, user-centric apps. Let's build something extraordinary together!"
     ),
     resumeLink: "https://drive.google.com/file/d/1lyMx-kW3hL1bLUH9-RDZ00NEoKW9_oxE/view?usp=drive_link", // Set to empty to hide the button
     displayGreeting: true // Set false to hide this section, defaults to true
